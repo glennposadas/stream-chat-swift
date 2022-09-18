@@ -56,7 +56,7 @@ open class ChatChannelHeaderView: _View,
     override open func updateContent() {
         super.updateContent()
 
-        titleContainerView.content = (titleText, subtitleText)
+        titleContainerView.content = (titleText, nil)
     }
 
     /// The title text used to render the title label. By default it is the channel name.
